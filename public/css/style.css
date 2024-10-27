@@ -1,0 +1,25 @@
+body {
+  font-family: "Patrick Hand", sans-serif;
+  background-color: #dcffef;
+}
+
+.hero {
+  background-image: url("../images/background/background.jpg");
+  background-size: cover; /* This makes the image cover the whole page */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+}
+
+
+main {
+  min-height: calc(100vh - 56px - 56px);
+}
+
+.logo {
+  max-width: auto;
+  height: 32px;
+}
+
+.review-star {
+  cursor: pointer;
+}
